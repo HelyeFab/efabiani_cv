@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--========== BOX ICONS ==========-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive resume cv</title>
+  </head>
+  <body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Fabiani</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link"
+                ><i class="bx bx-home nav__icon"></i>Home</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#profile" class="nav__link"
+                ><i class="bx bx-user nav__icon"></i>Profile</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#education" class="nav__link"
+                ><i class="bx bx-book-reader nav__icon"></i>Education</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link"
+                ><i class="bx bx-receipt nav__icon"></i>Skills</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#experience" class="nav__link"
+                ><i class="bx bx-briefcase nav__icon"></i>Experience</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#certificates" class="nav__link"
+                ><i class="bx bx-award nav__icon"></i>Certificates</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#references" class="nav__link"
+                ><i class="bx bx-link nav__icon"></i>References</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link"
+                ><i class="bx bx-pen nav__icon"></i>Portfolio</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main bd-container">
+      <!-- All elements within this div, will be generated in PDF -->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!--========== HOME ==========-->
+          <section class="home" id="home">
+            <div class="home__container section bd-grid">
+              <div class="home__data bd-grid">
+                <img
+                  src="./assets/img/profile_0ne.jpg"
+                  alt=""
+                  class="home__img"
+                />
+                <h1 class="home__title">Salvatore Emmanuel <b>Fabiani</b></h1>
+                <h3 class="home__profession">Software Engineer</h3>
+
+                <a
+                  download=""
+                  href="./assets/pdf/ResumeCv.pdf"
+                  class="home__button-mobile"
+                  >Download</a
+                >
+              </div>
+              <div class="home__address bd-grid">
+                <span class="home__information">
+                  <i class="bx bxs-map-alt home__icon"></i>
+                  50 Dean Path, EH4 3AU Edinburgh
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-envelope-open home__icon"></i>
+                  <a href="mailto:emmanuelfabiani23@gmail.com"
+                    >emmanuelfabiani23@gmail.com</a
+                  >
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-phone home__icon"></i>
+                  <a href="tel:+447474964865">07474964865</a>
+                </span>
+              </div>
+            </div>
+            <!-- Button to generate and download the pdf. Available for desktop. -->
+            <i
+              class="bx bx-download generate-pdf"
+              title="Generate PDF"
+              id="resume-button"
+            ></i>
+
+            <!-- Theme change button -->
+            <i
+              class="bx bx-moon change-theme"
+              title="Theme"
+              id="theme-button"
+            ></i>
+          </section>
+
+          <!--========== SOCIAL ==========-->
+          <section class="social section">
+            <h2 class="section-title">Social</h2>
+            <div class="social__container bd-grid">
+              <a
+                href="https://beanowebdesign.com/"
+                target="my portfolio"
+                class="social__link"
+                ><i class="bx bx-world social__icon website"></i>my website</a
+              >
+              <a
+                href="https://efabiani.netlify.app/"
+                target="my portfolio"
+                class="social__link"
+                ><i class="bx bxs-briefcase social__icon portfolio"></i>my
+                portfolio</a
+              >
+
+              <a
+                href="https://www.linkedin.com/in/emmanuelfabiani"
+                class="social__link"
+                ><i class="bx bxl-linkedin social__icon linkedin"></i
+                >emmanuelfabiani</a
+              >
+              <a href="https://twitter.com/CodeLeviosa" class="social__link"
+                ><i class="bx bxl-twitter social__icon twitter"></i
+                >CodeLeviosa</a
+              >
+              <a href="https://github.com/HelyeFab" class="social__link"
+                ><i class="bx bxl-github social__icon github"></i>HelyeFab</a
+              >
+            </div>
+          </section>
+
+          <!--========== PROFILE ==========-->
+          <section class="profile section" id="profile">
+            <h2 class="section-title">Profile</h2>
+            <p class="profile__description">
+              Trilingual Italian, English, and French. Resourceful and highly
+              experienced executive in the Insurance and Software industry.
+              Impressive record of software solutions - achieved first as a
+              technical analyst and lately as a software engineer, sales
+              engineer, project management, and team leader. Articulate with
+              exceptional interpersonal abilities. Believe in establishing
+              positive customer relationships at the highest level with
+              corporate customers. Have managed multi product based client
+              relationships both in the UK and Italy, leading multinational
+              teams both directly, 15 people, and indirectly, 100 people.
+              Passionate about web development, languages, technology,
+              innovation and business cutting edge solutions.
+            </p>
+          </section>
+
+          <!--========== EDUCATION ==========-->
+          <section class="education section" id="education">
+            <h2 class="section-title">Education</h2>
+            <div class="education__container bd-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">
+                    BSc (Honours) Computing and IT
+                  </h3>
+                  <span class="education__studies">The Open University</span>
+                  <span class="education__year">2021</span>
+                </div>
+              </div>
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">
+                    Celta - Teaching English as a Second or Foreign Language/ESL
+                    Language Instructor
+                  </h3>
+                  <span class="education__studies"
+                    >University of Cambridge</span
+                  >
+                  <span class="education__year">2015</span>
+                </div>
+              </div>
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">BA (Honours) Philosophy</h3>
+                  <span class="education__studies"
+                    >Studio Filosofico Domenicano Pontificia Università
+                    Angelicum di Roma</span
+                  >
+                  <span class="education__year">1999 - 1995</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== SKILLS  ==========-->
+          <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills__content bd-grid">
+              <ul class="skill__data">
+                <li class="skill__name">
+                  <span class="skill__circle"></span>Html
+                </li>
+                <li class="skill__name">
+                  <span class="skill__circle"></span>Css
+                </li>
+                <li class="skill__name">
+                  <span class="skill__circle"></span>Sass
+                </li>
+                <li class="skill__name">
+                  <span class="skill__circle"></span>Bootstrap
+                </li>
+                <li class="skill__name">
+                  <span class="skill__circle"></span>Wordpress
+                </li>
+              </ul>
+              <ul class="skill__data">
+                <li class="skill__name">
+                  <span class="skill__circle"></span>React
+                </li>
+                <span class="skill__circle"></span
+                >Node.js
+                <li class="skill__name">
+                  <span class="skill__circle"></span>Mongo
+                </li>
+                <li class="skill__name">
+                  <span class="skill__circle"></span>Express
+                </li>
+                <li class="skill__name">
+                  <span class="skill__circle"></span>UI/UX
+                </li>
+                <li class="skill__name">
+                  <span class="skill__circle"></span>Figma
+                </li>
+              </ul>
+              <ul class="skill__data">
+                <li class="skill__name">
+                  <span class="skill__circle"></span>Project Management
+                </li>
+                <li class="skill__name">
+                  <span class="skill__circle"></span>Customer Relationship
+                </li>
+                <li class="skill__name">
+                  <span class="skill__circle"></span>Team Leading
+                </li>
+                <li class="skill__name">
+                  <span class="skill__circle"></span>Employee training
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+
+        <div class="resume__right">
+          <!--========== EXPERIENCE ==========-->
+          <section class="experience section" id="experience">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience__container bd-grid">
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+                <div class="experience__data bd-grid">
+                  <h3 class="experience-title">
+                    Sales Engineer - Trimble Maps
+                  </h3>
+                  <span class="experience__comany">2018-Present</span>
+                  <p class="experience__description">
+                    Product owner and integration specialist of both cloud based
+                    and on premises navigation solutions: Routing and
+                    navigation. Optimisation. Fleet management. Route analysis.
+                    Custom sites’ creation and management. Integration
+                    specialist providing technical induction and deployment
+                    support: Java workshops on how to set up and manage
+                    integration projects. Assisting partners and prospects on
+                    how to use our APIs and online platforms in order to
+                    implement new routing functionalities, optimise their
+                    workflow, increase drivers productivity personalise
+                    customer. solutions
+                  </p>
+                </div>
+              </div>
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+                <div class="experience__data bd-grid">
+                  <h3 class="experience-title">
+                    Technical Analyst - Trimble Maps
+                  </h3>
+                  <span class="experience__comany">2016-2018</span>
+                  <p class="experience__description">
+                    Providing B2B technical support in order to identify,
+                    implement, organize, integrate and manage ALK products in
+                    accordance with customers needs while acting as the subject
+                    matter expert in order to increase customer experience and
+                    business opportunities. Royal Mail, Waitrose, Microlise,
+                    Biffa, DHL, and Yodel are a few names of my Portfolio.
+                    Create ad-hoc material and documentation in response to
+                    outages or technical issues, maintain online product support
+                    content, including FAQs, documentation and self-help
+                    material, adding and editing content as appropriate in
+                    English and Italian.
+                  </p>
+                </div>
+              </div>
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+                <div class="experience__data bd-grid">
+                  <h3 class="experience-title">Project Manager - Unipol Sai</h3>
+                  <span class="experience__comany">2014-2016</span>
+                  <p class="experience__description">
+                    Project Manager on a wide range of business projects
+                    including analysis of foreign markets in order to establish
+                    challenges and of opportunities for expanding the Company's
+                    business abroad. Other projects includes maximisation of
+                    Customer retention through the development and integration
+                    of a customised CRM in order to better understand prospects
+                    and customers' needs; Annual Reviews and Updates of the
+                    Company's range of insurance solutions both for retail and
+                    corporate customers as well as expanding the Company's
+                    Business Plan. Providing information and evidence based
+                    advice to senior management in support of the
+                    company’s/division’s financial and organisational
+                    projections/changes assisting in strategy and development
+                    planning Translating from and into English plans and
+                    projects in respect of foreign customers, their markets and
+                    growth targets. Ensuring all internal communications of the
+                    group’s senior management give a direct, clear and
+                    consistent message towards the addressed audience with
+                    particular responsibility for all communications from the
+                    CEO personally and his office.
+                  </p>
+                </div>
+              </div>
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+                <div class="experience__data bd-grid">
+                  <h3 class="experience-title">
+                    Senior Associate Global Service - Lightspeed GMI
+                  </h3>
+                  <span class="experience__comany">2015-2016</span>
+                  <p class="experience__description">
+                    Performance management:   Determine and deliver training to
+                    team members in order to achieve greater performance  
+                    Manage the team within the region/time zone to meet the goal
+                    metrics   Review reports and dashboards and work with the
+                    team to improve all metrics Resources scheduling &
+                    allocation:   New candidate interviewing and selection
+                    process   Daily review of business needs for each
+                    region/time zone to allocate resources appropriately  
+                    Prepare and organize schedules ensuring constant and
+                    appropriate levels of coverage: including attendance,
+                    schedule breaks, shifts and holidays as necessary   Manage
+                    efficiently different queues in line with business metrics
+                    and requirements   Deal with escalated issues and enquiries
+                    in line with global processes   Work with team members to
+                    build sustainable solutions   Monitor time and workload and
+                    manage priorities to meet business goals   Ensuring daily
+                    high quality support to the healthcare team responding to
+                    the doctors’ technical, study and incentive scheme related
+                    questions   Report to directors regularly with regards to
+                    team performances Ongoing improvement:   Designing new
+                    training plans for new hires   Review performances and
+                    suggest process improvement   Work with other team members
+                    of Member Services in order to optimize the global processes
+                    and deliver greater efficiencies   Practice and ensure
+                    compliance with all the organization’s policies and
+                    procedures   Introducing and implementing “The Help Centre”
+                    on the company web site, working as a moderator with
+                    panelists testing the prototype in order to gather and
+                    review feedback for further implementation   Facebook
+                    Champion dealing with Panelists inquiries over our Facebook
+                    page
+                  </p>
+                </div>
+              </div>
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+                <div class="experience__data bd-grid">
+                  <h3 class="experience-title">Associate Business Analyst</h3>
+                  <span class="experience__comany">2010-2014</span>
+                  <p class="experience__description">Tracking and analyzing Call Centre Performance  in terms of main KPIs: Occupancy, Abandoned Calls, Calls Answered, Average Wait Time and Grade of Service 
+                    	Introducing and implementing  “Linear Chat” via Vivocha’s web cloud based platform.  Linear Chat was a new method for customers to get in touch on line and discuss their requirements.  Responsible for co-designing the user-interface and developing the product and then trialing it before release 
+                    	Once released responsible for monitoring and enhancing the customer experience, implementing further technological innovation and optimizing sales
+                    	Project management and channel governance ensuring that the operations were carried in line with the company’s corporate policy.  In addition responsible for recruiting and training new chat representatives</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== CERTIFICATES ==========-->
+          <section class="certificate section" id="certificates">
+            <h2 class="section-title">Certificates & Awards</h2>
+            <div class="certificate__container bd-grid">
+              <div class="certificate__content">
+                <h3 class="certificate__title">
+                  #100Devs Software Engineer Online Bootcamp
+                </h3>
+                <p class="certicate__description">Online, 2020-2021</p>
+              </div>
+              <div class="certificate__content">
+                <h3 class="certificate__title">The Moder React Bootcamp</h3>
+                <p class="certicate__description">Udemy, 2020</p>
+              </div>
+              <div class="certificate__content">
+                <h3 class="certificate__title">
+                  Trimble Maps Employee of the Year
+                </h3>
+                <p class="certicate__description">Trimble Maps, London 2018</p>
+              </div>
+              <div class="certificate__content">
+                <h3 class="certificate__title">
+                  DALF - Diplôme approfondi de langue française
+                </h3>
+                <p class="certicate__description">
+                  Eurocentres Language Schools, Paris 2018
+                </p>
+              </div>
+              <div class="certificate__content">
+                <h3 class="certificate__title">Android programming course</h3>
+                <p class="certicate__description">Bermotech, London 2018</p>
+              </div>
+              <div class="certificate__content">
+                <h3 class="certificate__title">Java programming course</h3>
+                <p class="certicate__description">Bermotech, London 2017</p>
+              </div>
+              <div class="certificate__content">
+                <h3 class="certificate__title">Project Management Institute</h3>
+                <p class="certicate__description">
+                  Certified Assistant Project Manager , London 2016
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <!--========== REFERENCES ==========-->
+          <!-- <section class="references section" id="references">
+            <h2 class="section-title">References</h2>
+            <div class="references__container bd-grid">
+              <div>
+                <span class="references__subtitle">Sr Director</span>
+                <h3 class="references__title">Mr Clay Doe</h3>
+                <ul class="references__contact">
+                  <li>Phone: 999-4434</li>
+                  <li>Email: user@gmail.com</li>
+                </ul>
+              </div>
+
+              <div>
+                <span class="references__subtitle">Sr Director</span>
+                <h3 class="references__title">Mr Clay Doe</h3>
+                <ul class="references__contact">
+                  <li>Phone: 999-4434</li>
+                  <li>Email: user@gmail.com</li>
+                </ul>
+              </div>
+            </div>
+          </section> -->
+          <!--========== LANGUAGES ==========-->
+          <section class="languages section">
+            <h2 class="section-title">Languages</h2>
+            <div class="languages__container">
+              <ul class="languages__content bd-grid">
+                <li class="languages__name">
+                  <span class="languages__circle"></span>English
+                </li>
+                <li class="languages__name">
+                  <span class="languages__circle"></span>Italian
+                </li>
+                <li class="languages__name">
+                  <span class="languages__circle"></span>French
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <!--========== INTERESTS ==========-->
+          <section class="interests section">
+            <h2 class="section-title">Interests & Hobbies</h2>
+            <div class="interests__container">
+              <div class="interests__content">
+                <i class="bx bxs-book-heart interests__icon"></i>
+                <span class="interests__name">Reading</span>
+              </div>
+              <div class="interests__content">
+                <i class="bx bx-code-block interests__icon"></i>
+                <span class="interests__name">Continuos Learning</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bxs-paint interests__icon"></i>
+                <span class="interests__name">Digital Art</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bx-game interests__icon"></i>
+                <span class="interests__name">Video Games</span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bxs-arrow-to-top"></i>
+    </a>
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
